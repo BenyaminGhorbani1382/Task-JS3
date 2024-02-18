@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="slider_brands">
+        <div class="flex_slider_brands" id="flexSliderBrands">
+          <img class="img_slider_brands" src="./assets/img/1.jpg" />
+          <img class="img_slider_brands" src="./assets/img/2.jpg" />
+          <img class="img_slider_brands" src="./assets/img/3.jpg" />
+          <img class="img_slider_brands" src="./assets/img/1.jpg" />
+        </div>
+
+        <div class="left_slider_brands" id="leftSliderBrands"></div>
+        <div class="right_slider_brands" id="rightSliderBrands"></div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="navbar">
+          <a href="#" onclick="toggleActive(event)">Beni</a>
+          <a href="#" onclick="toggleActive(event)">Mamad</a>
+          <a href="#" onclick="toggleActive(event)">Hosseain</a>
+          <a href="#" onclick="toggleActive(event)">Reza</a>
+        </div>
+      </section>
+      <section>
+        <div class="big_placeholders">
+          <div class="box_placeholders">
+            <img src="./assets/img/5.jpg" />
+            <div class="box_text">
+              <p id="textBox1"></p>
+            </div>
+
+            <button onclick="showFullText('textBox1')">mare</button>
+          </div>
+
+          <div class="box_placeholders">
+            <img src="./assets/img/6.jpg" />
+            <div class="box_text">
+              <p id="textBox2"></p>
+            </div>
+
+            <button onclick="showFullText('textBox2')">mare</button>
+          </div>
+
+          <div class="box_placeholders">
+            <img src="./assets/img/7.jpg" />
+            <div class="box_text" id="boxText">
+              <p id="textBox3"></p>
+            </div>
+
+            <button onclick="showFullText('textBox3')">mare</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="flex_footer">
+        <div>
+          <p>Careers</p>
+          <p>Blog</p>
+          <p>Investor Relations</p>
+          <p>Your Account</p>
+        </div>
+
+        <div>
+          <p>Your Orders</p>
+          <p>Returns</p>
+          <p>Replacements</p>
+          <p>Shipping Rates</p>
+        </div>
+
+        <div>
+          <p>Policies</p>
+          <p>Assistant</p>
+          <p>Business Card</p>
+          <p>Reload Your Balance</p>
+        </div>
+
+        <div>
+          <p>Science</p>
+          <p>Devices</p>
+          <p>Become an Affiliate</p>
+          <p>Help</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
